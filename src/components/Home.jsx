@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "../style/Home.css";
 
-import profilePic from "../images/Aiman154.png"; // Update with actual image path
+import profilePic from "../images/Aiman153.png"; // Update with actual image path
 
 const Home = () => {
   useEffect(() => {

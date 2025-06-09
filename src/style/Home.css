@@ -22,8 +22,8 @@
 
 /* Image */
 .profile-img {
-  width: 250px;
-  height: 250px;
+  width: 290px;
+  height: 330px;
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -86,8 +86,8 @@
     padding-top: 0;
   }
   .profile-img {
-    width: 180px;
-    height: 180px;
+    width: 240px;
+    height: 260px;
     margin-top: -250px;
   }
 }
@@ -103,8 +103,8 @@
   }
 
   .profile-img {
-    width: 180px;
-    height: 180px;
+    width: 220px;
+    height: 240px;
     margin-top: -250px;
   
   }
@@ -145,16 +145,16 @@
     font-size: 0.9rem;
   }
   .profile-img {
-    width: 160px;
-    height: 160px;
+    width: 200px;
+    height: 220px;
     margin-top: -250px;
   }
 }
 
 @media (max-width: 420px) {
   .profile-img {
-    width: 160px;
-    height: 160px;
+    width: 180px;
+    height: 200px;
     margin-top: -250px;
   }
 
@@ -187,8 +187,8 @@
   }
 
   .profile-img {
-    width: 140px;
-    height: 140px;
+    width: 160px;
+    height: 180px;
     margin-top: -250px;
   }
 }
