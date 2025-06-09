@@ -25,12 +25,12 @@ const Home = () => {
             Passionate Software Engineer & Web Developer
           </h4>
           <p className="description">
-           A Bachelor of Engineering in Computer Science with a strong foundation in programming, problem-solving, and analytical thinking. I am highly motivated to work in challenging environments where I can continuously learn, improve my skills, and contribute meaningfully to the organization’s success. I thrive on mentorship and guidance that inspires me to give my best and grow both technically and professionally.
+           A Bachelor of Engineering in Information Science with a strong foundation in programming, problem-solving, and analytical thinking. I am highly motivated to work in challenging environments where I can continuously learn, improve my skills, and contribute meaningfully to the organization’s success. I thrive on mentorship and guidance that inspires me to give my best and grow both technically and professionally.
           </p>
           <div className="social-icons" data-aos="fade-up" data-aos-delay="300">
             <a href="https://github.com/aimansheikh17"><i className="fab fa-linkedin"></i></a>
             <a href="https://www.linkedin.com/in/mohammed-aiman-036005327"><i className="fab fa-github"></i></a>
-            <a href="#"><i className="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/aiman_sheikhh_17/"><i className="fab fa-instagram"></i></a>
           </div>
         </div>
       </div>
