@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import '../style/Activities.css';
-import activitiesImg from '../images/activities1.png'; // update if needed
+import activitiesImg from '../images/Activities1.png'; // update if needed
 
 const Activities = () => {
   useEffect(() => {
