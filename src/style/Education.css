@@ -1,0 +1,258 @@
+/* Section wrapper */
+.education-section {
+  padding: 60px 100px;
+  background-color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Section Title */
+.section-title1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+  position: relative;
+  color: #000;
+}
+
+.section-title1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #2196f3;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+/* Layout */
+.education-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.education-left {
+  flex: 1;
+  min-width: 320px;
+}
+
+.education-right {
+  flex: 1;
+  text-align: center;
+  min-width: 320px;
+}
+
+/* Image with animation */
+.edu-img {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.float-animation {
+  animation: floatUpDown 3s ease-in-out infinite;
+}
+
+@keyframes floatUpDown {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
+}
+
+/* Education item */
+.education-item {
+  margin-bottom: 40px;
+}
+
+.education-item h3 {
+  color: #2196f3;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Metadata tags */
+.meta1 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.9rem;
+}
+
+.board,
+.college {
+  background-color: #f0f0f0;
+  padding: 4px 10px;
+  border-radius: 6px;
+  display: inline-block;
+  width: fit-content;
+}
+/* Base responsive up to 600px (covers 310px to 600px generally) */
+@media (max-width: 600px) {
+  .education-section {
+    padding: 30px 16px;
+  }
+
+  .section-title1 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  .education-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .education-left,
+  .education-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .education-item h3 {
+    font-size: 1rem;
+  }
+
+  .meta1 {
+    font-size: 0.85rem;
+    align-items: center;
+  }
+
+  .board,
+  .college {
+    font-size: 0.85rem;
+    padding: 3px 7px;
+  }
+
+  .edu-img {
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 400px) {
+  .section-title1 {
+    font-size: 1.3rem;
+  }
+
+  .education-section {
+    padding: 20px 10px;
+  }
+
+  .meta1 {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .section-title1 {
+    font-size: 1.2rem;
+  }
+
+  .education-item h3 {
+    font-size: 0.95rem;
+  }
+
+  .meta1 {
+    font-size: 0.75rem;
+  }
+
+  .board,
+  .college {
+    font-size: 0.75rem;
+    padding: 3px 6px;
+  }
+}
+
+@media (max-width: 320px) {
+  .section-title1 {
+    font-size: 1.1rem;
+  }
+
+  .education-section {
+    padding: 16px 8px;
+  }
+
+  .meta1 {
+    gap: 4px;
+  }
+
+  .board,
+  .college {
+    max-width: 100%;
+    font-size: 0.7rem;
+    word-break: break-word;
+  }
+}
+@media (max-width: 310px) {
+  .education-section {
+    padding: 14px 8px;
+  }
+
+  .section-title1 {
+    font-size: 1.05rem;
+    margin-bottom: 24px;
+  }
+
+  .education-item h3 {
+    font-size: 0.9rem;
+  }
+
+  .meta1 {
+    font-size: 0.75rem;
+    gap: 4px;
+    align-items: center;
+  }
+
+  .board,
+  .college {
+    font-size: 0.75rem;
+    padding: 3px 5px;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+
+  .edu-img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 16px;
+  }
+}
+@media (max-width: 300px) {
+  .education-section {
+    padding: 12px 6px;
+  }
+
+  .section-title1 {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .education-item h3 {
+    font-size: 0.85rem;
+  }
+
+  .meta1 {
+    font-size: 0.7rem;
+    gap: 3px;
+    align-items: center;
+  }
+
+  .board,
+  .college {
+    font-size: 0.7rem;
+    padding: 2px 5px;
+    max-width: 100%;
+    word-break: break-word;
+  }
+
+  .edu-img {
+    max-width: 100%;
+    margin-top: 14px;
+    border-radius: 6px;
+  }
+}

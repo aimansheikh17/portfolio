@@ -1,0 +1,195 @@
+.home-section {
+  background-color: #fff;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 103px; /* Top spacing for both */
+}
+
+/* Container aligning image and text */
+.home-container {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  padding-left: 177px; /* Image left padding */
+  padding-right: 106px; /* Text right margin */
+  gap: 146px; /* Space between image and text */
+  flex-wrap: wrap;
+   margin-top: 103px;
+}
+
+/* Image */
+.profile-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  
+}
+
+/* Text content */
+.home-content {
+  flex: 1;
+  padding-top: 0; /* Already aligned from .home-section padding */
+}
+
+.highlight-name {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #6c63ff;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1rem;
+  color: #5f6368;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+/* Social icons */
+.social-icons {
+  display: flex;
+  gap: 20px;
+  font-size: 1.4rem;
+}
+
+.social-icons a {
+  color: #5f6368;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #6c63ff;
+}
+
+/* Responsive adjustment */
+@media (max-width: 650px) {
+  .home-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 100px 20px;
+    text-align: center;
+  }
+
+  .home-content {
+    padding-top: 0;
+  }
+  .profile-img {
+    width: 180px;
+    height: 180px;
+    margin-top: -250px;
+  }
+}
+/* Custom responsive widths for small screens */
+
+@media (max-width: 600px) {
+  .home-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .profile-img {
+    width: 180px;
+    height: 180px;
+    margin-top: -250px;
+  
+  }
+
+  .highlight-name {
+    font-size: 1.8rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+
+  .social-icons {
+    font-size: 1.2rem;
+  }
+}
+
+/* Extra fine-tuning for extra small widths */
+
+@media (max-width: 540px) {
+  .home-container {
+    padding: 50px 16px;
+  }
+
+  .highlight-name {
+    font-size: 1.6rem;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+  .profile-img {
+    width: 160px;
+    height: 160px;
+    margin-top: -250px;
+  }
+}
+
+@media (max-width: 420px) {
+  .profile-img {
+    width: 160px;
+    height: 160px;
+    margin-top: -250px;
+  }
+
+  .highlight-name {
+    font-size: 1.5rem;
+  }
+
+  .subtitle,
+  .description {
+    font-size: 0.85rem;
+  }
+
+  .social-icons {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 380px) {
+  .home-container {
+    padding: 40px 12px;
+  }
+
+  .highlight-name {
+    font-size: 1.4rem;
+  }
+
+  .subtitle,
+  .description {
+    font-size: 0.8rem;
+  }
+
+  .profile-img {
+    width: 140px;
+    height: 140px;
+    margin-top: -250px;
+  }
+}
+
