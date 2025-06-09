@@ -30,7 +30,7 @@ const Footer = () => {
           <h3>FOLLOW</h3>
           <div className="social-icons">
             <a href="https://github.com/aimansheikh17" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+            <a href="https://www.instagram.com/aiman_sheikhh_17/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
             <a href="https://www.linkedin.com/in/mohammed-aiman-036005327" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
           </div>
         </div>
