@@ -35,7 +35,7 @@ const Experience = () => {
             <div className="meta">
               <span className="role">IT Support Intern</span>
               <span className="date">December 2023 – March 2024</span>
-              <span className="type hybrid">Hybrid</span>
+              <span className="type hybrid">Onsite</span>
             </div>
             <ul className="desc">
               <li>•	Assisted in setting up and maintaining desktop systems and user environments</li>
