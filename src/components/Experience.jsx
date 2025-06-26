@@ -38,12 +38,10 @@ const Experience = () => {
               <span className="type hybrid">Onsite</span>
             </div>
             <ul className="desc">
-              <li>Assisted in setting up and maintaining desktop systems and user environments</li>
-              <li>Learned how to create and manage user accounts</li>
-              <li>Provided basic troubleshooting support for browsers, network, and hardware</li>
-              <li>Documented common issues and worked with the team to improve support response</li>
-              <li>Helped configure basic LAN setups and Wi-Fi routers for small teams</li>
-              <li>Helped with remote support using tools like AnyDesk</li>
+              <li>Created static & dynamic sites using HTML, CSS, JavaScript</li>
+              <li>Developed a weather application providing real-time temperature data.</li>
+              <li>Improved website efficiency and user experience by implementing optimization strategies. </li>
+              
 
             </ul>
           </div>
