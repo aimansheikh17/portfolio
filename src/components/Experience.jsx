@@ -33,8 +33,8 @@ const Experience = () => {
           <div className="experience-item" data-aos="fade-right">
             <h3>JumpWhere Solutions</h3>
             <div className="meta">
-              <span className="role">IT Support Intern</span>
-              <span className="date">December 2023 – March 2024</span>
+              <span className="role">Web Developer Intern</span>
+              <span className="date">December 2022 – March 2023</span>
               <span className="type hybrid">Onsite</span>
             </div>
             <ul className="desc">
