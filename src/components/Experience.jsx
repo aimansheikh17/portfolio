@@ -33,14 +33,18 @@ const Experience = () => {
           <div className="experience-item" data-aos="fade-right">
             <h3>JumpWhere Solutions</h3>
             <div className="meta">
-              <span className="role">Web Developer Intern</span>
-              <span className="date">December 2022 – March 2023</span>
+              <span className="role">IT Support Intern</span>
+              <span className="date">December 2023 – March 2024</span>
               <span className="type hybrid">Onsite</span>
             </div>
             <ul className="desc">
-              <li>Created static & dynamic sites using HTML, CSS, JavaScript</li>
-              <li>Developed a weather application providing real-time temperature data.</li>
-              <li>Improved website efficiency and user experience by implementing optimization strategies. </li>
+              <li>Trained on installing operating systems, configuring user desktops/laptops, and setting up new hardware 
+devices (printers, routers, etc.). 
+</li>
+              <li>Learned how to create, manage, and secure user accounts and permissions using basic admin tools. </li>
+              <li>Gained practical knowledge in diagnosing and resolving common hardware, software, and network-related 
+issues. </li>
+<li>Learned to assist users remotely using tools like AnyDesk for real-time troubleshooting.</li>
               
 
             </ul>
